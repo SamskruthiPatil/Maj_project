@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "273457355189",
+    "firebase_url": "https://organiser-82b97-default-rtdb.firebaseio.com",
+    "project_id": "organiser-82b97",
+    "storage_bucket": "organiser-82b97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273457355189:android:a67d0b76c0151d775321fc",
+        "android_client_info": {
+          "package_name": "com.example.maj_org"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273457355189-hjv2jg9j4b8jn58m48ijir9okaad4b5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFYmDxL2QosolpB8fXtuBogbLTdHGILnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273457355189-hjv2jg9j4b8jn58m48ijir9okaad4b5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273457355189:android:2f94c90fe20903105321fc",
+        "android_client_info": {
+          "package_name": "com.mengsoftstudio.android.estoremobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273457355189-hjv2jg9j4b8jn58m48ijir9okaad4b5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFYmDxL2QosolpB8fXtuBogbLTdHGILnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273457355189-hjv2jg9j4b8jn58m48ijir9okaad4b5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

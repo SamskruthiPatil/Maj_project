@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Maj_project</string>
+    <string name="sign_up">Sign up</string>
+    <string name="name3">Name</string>
+    <string name="email">Email</string>
+    <string name="mobile_no">Mobile no</string>
+    <string name="password_number">Password(number)</string>
+    <string name="signup">Signup</string>
+    <string name="view_upcoming_events">View upcoming events</string>
+    <string name="view_qrcode">View QRCode</string>
+    <string name="brochure">Brochure</string>
+    <string name="register">Register</string>
+    <string name="view_next_event">View next event</string>
+    <string name="event_id">Event id:</string>
+</resources>

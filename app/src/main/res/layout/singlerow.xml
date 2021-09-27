@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/notification"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="350dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/bell2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img1"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="40dp"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <Space
+                android:id="@+id/spacer1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/img1" />
+
+            <TextView
+                android:id="@+id/eid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacer1"
+                android:layout_marginStart="10dp"
+                android:text="@string/event_id"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/oid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacer1"
+                android:layout_marginLeft="10dp"
+                android:text="Event id:"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/ename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/eid"
+                android:layout_marginLeft="10dp"
+                android:text="Event name"
+                android:textColor="#000"
+                android:textSize="25sp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/orgname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ename"
+                android:layout_marginLeft="10dp"
+                android:text="Organised by"
+                android:textColor="#000"
+                android:textSize="25sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/datetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/orgname"
+                android:layout_marginLeft="10dp"
+                android:text="Date"
+                android:textColor="#000"
+                android:textSize="25sp"
+
+                android:textStyle="bold" />
+
+
+            <Space
+                android:id="@+id/spacer"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/datetext" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacer"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_rounded"
+
+                android:text="Register" />
+
+
+            <Space
+                android:id="@+id/spacer2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/register" />
+
+            <Button
+                android:id="@+id/schedule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/spacer2"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_rounded"
+
+                android:text="View Schedule" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
